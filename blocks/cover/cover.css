@@ -1,0 +1,32 @@
+.cover {
+    background-image: url(../../image/dmitrii-vaccinium-22833-unsplash.jpg.jpg);
+    max-width: 1184px;
+    min-height: 740px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+
+    transition: opacity 0.3s;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cover {
+        max-width: 100%;
+    }
+}
