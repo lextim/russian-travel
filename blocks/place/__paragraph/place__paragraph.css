@@ -15,3 +15,12 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 460px) {
+
+    .place__paragraph {
+        font-size: 16px;
+        grid-column: 1;
+        grid-row: span 1;
+    }
+}

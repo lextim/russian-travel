@@ -2,3 +2,10 @@
     grid-area: website;
     align-self: end;
 }
+
+@media screen and (max-width: 460px) {
+
+    .place__website {
+        display: none;
+    }
+}

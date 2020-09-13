@@ -17,10 +17,20 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) {  
     .place {
-        gap: 48px 32px;
-    
+        gap: 12px;
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+    }
+}
+
+@media screen and (max-width: 460px) {  
+    .place {
+        gap: 12px;
+        grid-template-columns: repeat(1, minmax(min-content, max-content));
+        grid-template-areas: 
+        "title"
+        "image"
+        "paragraph";
     }
 }

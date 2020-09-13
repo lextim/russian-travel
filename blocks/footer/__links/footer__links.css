@@ -1,14 +1,25 @@
 .footer__links {
     display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
-    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
 }
+
+@media screen and (max-width: 700px) {
+
+    .footer__links {
+        flex-direction: column;
+        margin: 0px;
+        align-content: center;
+        justify-content: space-between;
+    }
+} 
 
 @media screen and (max-width: 320px) {
 
     .footer__links {
-        display: flex;
-        flex-wrap: nowrap;
+        padding-left: 0px;
     }
 } 

@@ -1,17 +1,17 @@
 .intro {
+    display: flex;
+    max-width: 690px;
+    color: #ffffff;
+    flex-wrap: wrap;
     margin-left: 148px;
     margin-top: 92px;
-    margin-bottom: 92px;
-    max-width: 690px;
-    max-height: 429px;
-    color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
 
     .intro {
-        margin: 88px 24px;
         max-width: 690px;
+        margin-left: 48px;
     }
 }
 
@@ -19,15 +19,16 @@
 @media screen and (max-width: 768px) {
 
     .intro {
-        margin: 88px 24px;
-        width: 100%;
+        max-width: 720px;
+        margin-left: 24px;
+        margin-top: 88px;
     }
 }
 
 @media screen and (max-width: 320px) {
 
     .intro {
-        margin: 64px 16px;
-        width: 100%;
+        max-width: 288px;
+        margin-left: 16px;
     }
 }
