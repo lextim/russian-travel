@@ -19,15 +19,15 @@
 
 @media screen and (max-width: 768px) {  
     .place {
-        gap: 12px;
-        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+        gap: 48px 28px;
     }
 }
 
-@media screen and (max-width: 460px) {  
+@media screen and (max-width: 600px) {  
     .place {
         gap: 12px;
-        grid-template-columns: repeat(1, minmax(min-content, max-content));
+        grid-template-columns: minmax(min-content, max-content);
         grid-template-areas: 
         "title"
         "image"

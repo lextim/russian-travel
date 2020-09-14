@@ -6,16 +6,14 @@
     color: #FFFFFF;
     max-width: 360px;
     text-align: center;
-    z-index: 1;
     padding: 0;
-    margin: 0 auto 245px auto;
+    z-index: 1;
+    margin-top: 32px;
 }
 
-@media screen and (max-width: 460px) {
-
-    .cover__subtitle {
+@media screen and (max-width: 530px) {
+    .cover__subtitle{
         font-size: 14px;
         line-height: 16px;
-        max-width: 250px;
     }
 }
