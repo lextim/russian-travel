@@ -2,23 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 56px auto 0px auto;
-    max-width: 984px;
+    margin: 0px 100px;
 }
 
 @media screen and (max-width: 1024px) {
 
     .lead {
-        margin: 48px auto 0px auto;
-        max-width: 928px;
+        margin: 0px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .lead {
-        margin: 48px 0px 0px 0px;
-        max-width: 768px;
+        margin: 0px;
     }
 }
 

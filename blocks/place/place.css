@@ -1,25 +1,25 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: 1fr fit-content(456px);
     grid-template-areas: 
     "title website"
     "image paragraph"
     "image paragraph";
     gap: 48px 40px;
     margin-bottom: 80px;
+    min-width: 320px;
 }
 
 @media screen and (max-width: 1024px) {
     
     .place {
         gap: 48px 32px;
-    
+        grid-template-columns: 1fr fit-content(352px);
     }
 }
 
 @media screen and (max-width: 768px) {  
     .place {
-        grid-template-columns: fit-content(340px) minmax(min-content, max-content);
         gap: 48px 28px;
     }
 }
@@ -27,7 +27,6 @@
 @media screen and (max-width: 600px) {  
     .place {
         gap: 12px;
-        grid-template-columns: minmax(min-content, max-content);
         grid-template-areas: 
         "title"
         "image"
