@@ -1,12 +1,14 @@
 .place__paragraph {
-    grid-area: paragraph;
-    margin: 0;
-    grid-column: 2;
-    grid-row: span 1;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,7 +22,5 @@
 
     .place__paragraph {
         padding: 0 16px;
-        grid-column: 1;
-        grid-row: span 1;
     }
 }
