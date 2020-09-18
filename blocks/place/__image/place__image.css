@@ -4,14 +4,12 @@
 }
 
 @media screen and (max-width: 600px) {
-
     .place__image {
         margin: auto;
     }
 }
 
 @media screen and (max-width: 320px) {
-
     .place__image {
         margin: 0;
     }

@@ -6,20 +6,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-
     .lead {
         margin: 0px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
-
     .lead {
         margin: 0px;
     }
 }
-
-
-
-
-
