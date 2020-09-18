@@ -1,4 +1,4 @@
-.footer__links_link{
+.footer__link{
     margin-right: 18px;
     font-style: normal;
     font-weight: normal;
@@ -9,20 +9,20 @@
     display: flex;  
 }
 
-.footer__links_link:hover {
+.footer__link:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 700px) {
 
-    .footer__links_link {
+    .footer__link {
         margin-bottom: 20px;
     }
 } 
 
 @media screen and (max-width: 320px) {
 
-    .footer__links_link {
+    .footer__link {
         margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
